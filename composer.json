@@ -1,5 +1,5 @@
 {
-    "name": "gafhyb/itop-installer",
+    "name": "diggersheep/itop-installer",
     "type": "composer-plugin",
     "license": "MIT",
     "description": "iTop extension Installer",
