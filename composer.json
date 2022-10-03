@@ -1,5 +1,5 @@
 {
-    "name": "gafhyb/itop-installer",
+    "name": "diggersheep/itop-installer",
     "type": "composer-plugin",
     "license": "MIT",
     "description": "iTop extension Installer",
@@ -21,7 +21,7 @@
         "roundcube/plugin-installer": "*"
     },
     "require": {
-        "composer-plugin-api": "^1.0"
+        "composer-plugin-api": ">2.0"
     },
     "require-dev": {
         "composer/composer": "1.0.*@dev",
