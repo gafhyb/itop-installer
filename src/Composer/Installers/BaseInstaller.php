@@ -15,11 +15,11 @@ abstract class BaseInstaller
     /**
      * Initializes base installer.
      *
-     * @param PackageInterface $package
-     * @param Composer         $composer
-     * @param IOInterface      $io
+     * @param PackageInterface|null $package
+     * @param Composer|null         $composer
+     * @param IOInterface|null      $io
      */
-    public function __construct(PackageInterface $package = null, Composer $composer = null, IOInterface $io = null)
+    public function __construct(?PackageInterface $package = null, ?Composer $composer = null, ?IOInterface $io = null)
     {
         $this->composer = $composer;
         $this->package = $package;
